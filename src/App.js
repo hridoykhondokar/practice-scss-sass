@@ -1,12 +1,13 @@
-import './App.scss';
-import Header from './component/Header/Header';
-import Home from './component/Home';
+import './App.css';
+import Cart from './component/Cart/Cart';
+import Shop from './component/Shop/shop';
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      <Header></Header>
+      <Cart></Cart>
+      <Shop></Shop>
+
     </div>
   );
 }
